@@ -1,0 +1,191 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Ketik code Anda dibawah */
+.top-wrapper{
+    padding-top: 180px;
+    padding-bottom: 100px;
+    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+    background-size: cover;
+    text-align: center;
+}
+
+.top-wrapper h1{
+    font-size: 45px;
+    letter-spacing: 5px;
+    opacity: 0.7;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.top-wrapper p{
+    color: white;
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+.btn-wrapper {
+    margin: 20px 0px;
+}
+
+.btn-wrapper p{
+    margin: 10px 0px;
+}
+
+.btn{
+    padding: 12px 24px;
+    display: inline-block;
+    opacity: 0.8;
+    color: white;
+    border-radius: 6px;
+}
+
+.facebook{
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.signup{
+    background-color: #239b76;
+}
+
+.twitter{
+    background-color: #55acee;
+}
+
+.fa{
+    margin-right: 5px;
+}
+
+/* style untuk header */
+.header-logo{
+    margin-top: 20px;
+    width: 124px;
+    float: left;
+}
+
+header{
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+.login{
+    float: right;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: block;
+    padding: 0px 25px;
+    line-height: 65px;
+    transition : 0.5s all;
+}
+
+.login:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* style untuk lesson-wrapper */
+.lessons-wrapper{
+    height: 580px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.lessons-wrapper h2{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-style: normal;
+    color: #5f5d70;
+}
+
+.lesson{
+    float: left;
+    width: 25%;
+}
+
+.lesson-icon{
+    position: relative;
+}
+
+.lesson-icon p{
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+}
+
+.lesson-txt{
+    font-size: 15px;
+    color: #b3aeb5;
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* style untuk message wrapper */
+.message-wrapper{
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.heading{
+    padding-top: 60px;
+    font-style: normal;
+    color: #5f5d60;
+    padding-bottom: 30px;
+}
+
+.ajakan{
+    padding: 15px 40px;
+    background-color: #5dca88;
+    box-shadow: 0px 7px #1a7940;
+    cursor: pointer;
+}
+
+.ajakan:active{
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.ajakan:hover{
+    opacity: 1;
+}
+
+/* style untuk footer */
+footer{
+    border-top: 1px solid #eee;
+    padding-top: 30px;
+}
+
+.logo-footer{
+    width: 125px;
+}
+
+.content-wrapper p {
+    font-size: 12px;
+    color: #b3aeb5;
+}
